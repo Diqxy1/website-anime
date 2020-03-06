@@ -1,0 +1,580 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #181727;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #708084;
+}
+
+/* menu */
+nav{
+    z-index: 2;
+    height: 4.5rem;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 2px 0px 5px rgba(255, 255, 255, 0.2); */
+}
+
+nav div .logo-text{
+    font-size: 2rem;
+    color: #eaeaee;
+}
+
+nav .menu .item-destaque{
+    color: #eaeaee;
+}
+
+nav div .menu-item{
+    text-decoration: none;
+    color: #708084;
+    margin: 6px;
+}
+
+nav .button-menu button{
+    background-color: transparent;
+    border: none;
+    color: #eaeaee;
+    height: 1.5rem;
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav div .login-btn{
+    background-color: #e84118;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+nav .menu ul .menu-item:hover{
+    color: #eaeaee;
+}
+
+nav .button-menu button:hover{
+    background-color: #e84118;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* banner */
+.banner-div{
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    background-image: url(../image/madeinabyss.png);
+    background-size: cover;
+    height: 512px;
+    width: 512px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner .buttons-container{
+    padding-bottom: 80px;
+}
+
+.banner .buttons-container button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #e84118;
+    color: #EAEAEA;
+    width: 150px;
+    height: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    border-radius: 6px;
+    border: 1px solid #fff;
+    margin: 350px 30px 0 30px;
+}
+
+.banner .buttons-container button:hover{
+    background-color: #ff613a;
+    cursor: pointer;
+}
+
+/* animes */
+.container-anime{
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-anime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text-anime h1{
+    padding: 0;
+    margin: 3rem 0 5px 0;
+    color: #eaeaee;
+}
+
+.card-anime ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card-anime ul li{
+    list-style: none;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    width: 175px;
+    height: 330px;
+    margin: 5px;
+}
+
+#card-1{
+    background-image:url(../image/card-img/Toaru_kagaku.jpg);
+    background-size: cover;
+}
+
+#card-1:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card-2{
+    background-image:url(../image/card-img/Mahou_shoujo.jpg);
+    background-size: cover;
+}
+
+#card-2:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card-3{
+    background-image:url(../image/card-img/Koisuru_asteroid.jpg);
+    background-size: cover;
+}
+
+#card-3:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card-4{
+    background-image:url(../image/card-img/Haikyuu-TO-THE-TOPP.jpg);
+    background-size: cover;
+}
+
+#card-4:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card-5{
+    background-image:url(../image/card-img/Darwins_game.jpg);
+    background-size: cover;
+}
+
+#card-5:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#card-6{
+    background-image:url(../image/card-img/Go-Toubun-no-Hanayome-2.jpg);
+    background-size: cover;
+}
+
+#card-6:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* novida */
+.container-novidades{
+    padding: 0px 100px;
+}
+
+.card-novidades ul li{
+    list-style: none;
+    /* border: 1px solid #fff; */
+    width: 350px;
+    height: 240px;
+    margin: 0 5px;
+    background-color: #1f1e35;
+}
+
+.card-novidades ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container-text-novidade h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #eaeaee;
+}
+
+.titulos-novidade h2{
+    padding: 0;
+    margin: 0 0 15px 0;
+    color: #eaeaee;
+}
+
+.titulos-novidade{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-novidades ul li div{
+    width: 350px;
+    height: 110px;
+}
+
+.card-novidades ul li p{
+    text-align: center;
+    color: #eaeaee;
+}
+
+.link-noticia{
+    text-decoration: none;
+    color: #708084;
+}
+
+.p-titulo{
+    margin: 15px 0 10px 0;
+    font-size: 20px;
+}
+
+.conteudo-p
+{
+    margin: 0 0;
+    font-size: 16px;
+}
+
+#card-n-1{
+    border-bottom: 1px solid #3d3c63;
+    background-image: url(../image/card-novidades/124590.jpg);
+    background-size: cover;
+}
+
+#card-n-2{
+    border-bottom: 1px solid #3d3c63;
+    background-image: url(../image/card-novidades/55838.jpg);
+    background-size: cover;
+}
+
+#card-n-3{
+    border-bottom: 1px solid #3d3c63;
+    background-image: url(../image/card-novidades/45981.jpg);
+    background-size: cover;
+}
+
+/* reviews */
+.reviews-content{
+    padding: 0px 100px;
+}
+
+.container-text-review h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eaeaee;
+}
+
+.reviews ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.reviews ul li{
+    list-style: none;
+    /* border: 1px solid #fff; */
+    width: 68rem;
+    height: 10rem;
+    margin: 5px 0;
+}
+
+.reviews ul li div{
+    width: 68rem;
+    height: 10rem;
+}
+
+.ul-content{
+    width: 50rem;
+    height: 10rem;
+    margin: 0 30px;
+    padding: 0;
+}
+
+#card-r-1 ul li{
+    width: 43rem;
+    height: 10rem;
+    margin: 20px 0;
+    padding: 0 10px;
+    background-color: rgba(36, 36, 36, 0.733);
+}
+
+#card-r-2 ul li{
+    width: 43rem;
+    height: 10rem;
+    margin: 20px 0;
+    padding: 0 10px;
+    background-color: rgba(36, 36, 36, 0.733);
+}
+
+#card-r-3 ul li{
+    width: 43rem;
+    height: 10rem;
+    margin: 20px 0;
+    padding: 0 10px;
+    background-color: rgba(36, 36, 36, 0.733);
+}
+
+.p-titulo-r{
+    margin: 15px 0 10px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #eaeaee;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.conteudo-p-r{
+    margin: 0 5px;
+    font-size: 16px;
+    text-align: center;
+    color: #eaeaee;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.link-review{
+    text-decoration: none;
+    color: #7ed6df;
+}
+
+#card-r-1{
+    background-image: url(../image/card-review/99348.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+}
+
+#card-r-2{
+    background-image: url(../image/card-review/59781.jpg);
+    background-size: cover;
+    background-position: initial;
+    border-radius: 3px;
+}
+
+#card-r-3{
+    background-image: url(../image/card-review/44375.png);
+    background-size: cover;
+    background-position: initial;
+    border-radius: 3px;
+}
+
+/* footer */
+footer {
+    padding: 20px 100px;
+    margin-top: 70px ;
+    background-color: #12111f;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin: 0 15rem;
+
+}
+
+/* page contact */
+.Titulo-link{
+    text-decoration: none;
+    color: #eaeaee;
+}
+
+.card-suporte{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #1f1e35
+}
+
+.container-text-suporte{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    background-image: url(../image/card-review/44375.png);
+    background-size: cover;
+}
+
+.container-text-suporte div{
+    color: #eaeaee;
+    background-color: rgba(36, 36, 36, 0.384);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.suporte{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.container-suporte{
+    padding: 0 100px;
+}
+
+input[type=text]{
+    width: 280px;
+    padding: 2px 3px;
+    border: none;
+    border-radius: 4px;
+    resize: vertical;
+    height: 30px;
+    background-color: #181727;
+    color: #eaeaee;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+form div.form-group textarea{
+    width: 280px;
+    padding: 2px 3px;
+    border: none;
+    border-radius: 4px;
+    resize: vertical;
+    height: 30px;
+    background-color: #181727;
+    color: #eaeaee;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+form div.form-group textarea{
+    height: 150px;
+}
+
+.form-group{
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 10px 0;
+    color: #eaeaee;
+}
+
+div.form-group button{
+    background-color: #e84118;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #eaeaee;
+    width: 85px;
+    height: 33px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 10rem;
+}
+
+/* page anime */
+.content-animes-card div ul{
+    margin: 0;
+    padding: 0;
+}
+
+.content-animes-card div ul li{
+    list-style: none;
+}
+
+.content-animes-card{
+    padding: 0 100px;
+}
+
+.card-anime-p ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anime-card{
+    width: 250px;
+    height: 150px;
+    background-image: url(../image/card-novidades/124590.jpg);
+    background-size: cover;
+}
+
+div.card-anime-p ul li div.anime-card .ul-content-anime{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.384);
+}
+
+.ul-content-anime li{
+    padding: 0 10px;
+}
+
+.p-titulo-anime{
+    color: #eaeaee;
+}
+
+.p-conteudo-anime{
+    color: #eaeaee;
+}
