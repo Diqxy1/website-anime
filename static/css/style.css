@@ -548,13 +548,13 @@ div.form-group button{
 
 .card-anime-p ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .anime-card{
-    width: 250px;
-    height: 150px;
+    width: 215px;
+    height: 125px;
     background-image: url(../image/card-novidades/124590.jpg);
     background-size: cover;
 }
@@ -571,10 +571,86 @@ div.card-anime-p ul li div.anime-card .ul-content-anime{
     padding: 0 10px;
 }
 
+div.card-anime-p ul li{
+    margin: 0 3px;
+}
+
 .p-titulo-anime{
     color: #eaeaee;
 }
 
 .p-conteudo-anime{
     color: #eaeaee;
+}
+
+.banner-anime{
+    background-image: url(../image/thumb-1920-747947.png);
+    background-size: cover;
+    height: 512px;
+    width: 1104px;
+    background-position: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+div.card-anime-p h2{
+    color: #EAEAEA;
+}
+
+.anime-card:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* page manga */
+.banner-manga{
+    background-image: url(../image/maxresdefault.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 512px;
+    width: 1104px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+}
+
+.content-manga-card{
+    padding: 0 100px;
+}
+
+.card-manga ul li{
+    list-style: none;
+}
+
+.card-manga ul{
+    padding: 0;
+}
+
+div.manga-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 125px;
+    height: 170px;
+}
+
+ul.content-manga{
+    padding: 0;
+}
+
+.manga-card ul.content-manga li{
+    list-style: none;
+}
+
+.manga-card{
+    border: 1px solid #fff;
 }
